@@ -17,8 +17,9 @@ longestContinous (<) [2,3,4,2,3,4,5,6,2,3,4,2,9]
 ## Red Black Tree
 ### An implementation of Reb-Black tree from Chris Okasaki's Purely Functional Data Structures.
 ```haskell
--- A Tree can be created a follows
----- With 511 nodes
+-- A Red Black Tree can be used a follows
+
+
 import RedBlack (Tree(Empty), Tree(Node), Color(R), Color(B),
                 empty, insert, depth, size, root)
 
