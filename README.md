@@ -14,6 +14,14 @@ longestContinous (<) [2,3,4,2,3,4,5,6,2,3,4,2,9]
 [2,3,4,5,6]
 ```
 
+## Red Black Tree
+### An implementation of Reb-Black tree from Chris Okasaki's Purely Functional Data Structures.
+```haskell
+-- Tree can be created a follows
+
+```
+
+
 
 
  
