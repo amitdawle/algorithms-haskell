@@ -22,7 +22,8 @@ longestContinous (<) [2,3,4,2,3,4,5,6,2,3,4,2,9]
 import RedBlack (Tree(Empty), Tree(Node), Color(R), Color(B),
                 empty, insert, depth, size, root)
 
-(foldl (\t x -> insert x t) empty [1..511])
+-- Create a tree with 511 elements (note elements are already sorted
+    (foldl (\t x -> insert x t) empty [1..511])
 
 -- Check depth of the tree
     depth (Node B empty 1 (Node R empty 2 empty))  -- `shouldBe` (2)
